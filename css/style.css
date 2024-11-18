@@ -23,11 +23,18 @@ main {
 
 .pokedex-container {
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
 .pokedex {
   width: 100%;
   max-width: 315px;
+  padding: 20px;
+  background-color: #ff0000;
+  border-radius: 10px;
 }
 
 .pokemon__image {
