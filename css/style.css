@@ -22,24 +22,20 @@ main {
 }
 
 .pokedex-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-top: 20px;
+ position: relative;
 }
 
 .pokedex {
   width: 100%;
   max-width: 300px;
-  padding: 20px;
 }
 
 .pokemon__image {
   position: absolute;
   bottom: 55%;
   left: 50%;
-  transform: translate(-63%, 20%);
-  height: 18%;
+  transform: translate(50%, 50%);
+  height: 25%;
 }
 
 .pokemon__data {
