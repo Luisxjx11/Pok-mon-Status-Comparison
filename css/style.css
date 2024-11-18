@@ -32,12 +32,10 @@ main {
   width: 100%;
   max-width: 300px;
   padding: 20px;
-  background-color: #ff0000;
-  border-radius: 10px;
 }
 
 .pokemon__image {
-  bottom: 50%;
+  bottom: 55%;
   left: 50%;
   transform: translate(-63%, 20%);
   height: 18%;
