@@ -30,16 +30,13 @@ main {
 
 .pokedex {
   width: 100%;
-  max-width: 315px;
+  max-width: 300px;
   padding: 20px;
   background-color: #ff0000;
   border-radius: 10px;
 }
 
 .pokemon__image {
-  position: relative;
-  display: block;
-  margin: 0 auto;
   bottom: 50%;
   left: 50%;
   transform: translate(-63%, 20%);
