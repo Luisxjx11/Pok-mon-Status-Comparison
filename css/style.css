@@ -22,7 +22,6 @@ main {
 }
 
 .pokedex-container {
-  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -38,7 +37,11 @@ main {
 }
 
 .pokemon__image {
-  position: absolute;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  top: 20px;
   bottom: 55%;
   left: 50%;
   transform: translate(-63%, 20%);
