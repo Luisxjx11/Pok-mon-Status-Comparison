@@ -22,7 +22,10 @@ main {
 }
 
 .pokedex-container {
- position: relative;
+  position: relative;
+  display: flex;
+  padding: 15px;
+  
 }
 
 .pokedex {
@@ -34,7 +37,7 @@ main {
   position: absolute;
   bottom: 55%;
   left: 50%;
-  transform: translate(-63%, 20%);
+  transform: translate(50%, 10%);
   height: 18;
 }
 
